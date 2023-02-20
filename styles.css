@@ -186,6 +186,21 @@
     text-align: left;
 }
 
+.videos h2, h4, h1, p{
+  color: white;
+
+}
+
+.videos a{
+  text-decoration: none;
+  color:#BD97CB
+}
+
+.workSubSectionV{
+  margin-bottom: 30px;
+  padding-bottom: 30px
+}
+
 .contacts{
     display: none;
     justify-content: space-evenly;
