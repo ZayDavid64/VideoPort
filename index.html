@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+<div class="navBar" id="myNavBar">
+    <a class="active" href="#">ID</a>
+    <a href= "javascript:void(0);" onclick="javascript:nav('about')">Programs</a>
+    <a href="javascript:void(0);" onclick="javascript:nav('projects')">Projects</a>
+    <a href="javascript:void(0);" onclick="javascript:nav('contact')">Contact</a>
+    <a href="#" class="icon" id="icons" onclick="javascript:myFunction()">
+        <i class="fa fa-bars"></i></a>
+</div>
+
+<div class="hero">
+    <div class="hero-img">
+        <img src="./IMG_6818.JPG" class="zayPic responsive">
+     </div>
+    <div class="hero-text">
+        <p>Hello, my name is Isaiah! I am a</p>
+         <h1 class="title">Multimedia Specialist</h1>
+         <p>And I have a deep love for making your ideas come to life. I'm excited to work with you!</p>
+       <!--<button onclick="javascript:nav('me')">Get To Know Me</button>-->
+        <a href="./MultiMediaResume.docx"><button>My Resume</button></a>
+    </div>
+</div>
+
+<div class="aboutMe mainH" id="about">
+    <h1 class="head">Skills & Technologies:</h1>
+    <div class="bar"></div>
+    <div class="skills">
+    <h3>Video Editing:</h1>
+    <p> Adobe After Effect | Premiere Pro | Final Cut Pro | Davinci Resolve</p>
+    <h3>Graphic Design:</h3>
+    <p >Adobe Photoshop | Adobe Illustrator | Canva</p>
+    <h3>Web development:</h3>
+    <p>HTML | CSS | Javascript | React </p>
+    </div>
+    <p class="body">I always have had a love for videography and editing. As a kid I used to record and edit videos of myself acting like  a superhero with a camrecorder and an old busted computer my dad gave to me.
+        Now, I specialize in the expansion and marketing of your brand. Whether you require video editing, social media management, or even website development, I have the ability and resources to fill that need.
+        
+    </p>
+    <p class="body">
+        Among my other interests, I enjoy playing sports, gaming, and watching anime. 
+    </p>
+</div>
+
+</div>
+<div class="mainH" id="projects">
+    <h1 class="head" >My Projects</h1>
+    <div class="bar"></div>
+    <div class="workSection">
+        <div class="workSubSection">
+            <a class="proj" href="https://zaydavid64.github.io/ParkPT2/"><img src="./image1.jpeg"></a>
+            <h3>Park PT Business Webpage</h3>
+        </div>
+        <div class="workSubSection">
+            <a class="proj" href="https://zaydavid64.github.io/RPS/"><img src="./image0.png"></a>
+            <h3>Rock Paper Scissors Game</h3>
+        </div>
+        <div class="workSubSection">
+            <a class="proj"><img src="./27282.jpg" ></a>
+            <h3>Medical Notation App</h3>
+        </div>
+    </div>
+    </div>
+
+    
+
+<div class="mainH" id="contact">
+    <h1 class="head" >Let's Create Something Together!</h1>
+    <div class="bar"></div>
+    <p class="body">For Any Business Inquiry's Please Contact Me With The Info Below</p>
+    <div class=button>
+    <button class="mail">Contact Info</button>
+    </div>
+    <div class="contacts">
+        <div>
+        <img src="./blackhand.jpeg" class="hand responsive">
+        </div>
+        <div class="info">
+        <form>
+         <div class="inputs">
+            <div class="under">
+                <label for="fName">My Name:</label></div>
+            <h3 id="fName" class="hmu">Isaiah David</h1>
+            <div class="under">
+                <label for="lName">Email:</label></div>
+            <h3 id="lName" class="hmu"><a href = "mailto:isaiahd10@icloud.com">isaiahd10@icloud.com</a></h1>
+            <div class="under">
+                <label for="subject">LinkedIn:</label></div>
+            <h3 id="subject" class="hmu"><a href="https://www.linkedin.com/in/isaiah-david-8804b7166/">My Profile</a></h1>
+            <!--<button type="submit"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></button>-->
+         </div>
+        </form>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>Made With Spective <i class="fa fa-moon-o" aria-hidden="true"></i> By Retrospect</p>
+</footer>
+</body>
+<script src="./script.js"></script>
+</html>
